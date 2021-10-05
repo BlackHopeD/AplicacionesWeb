@@ -1,0 +1,18 @@
+
+# HTID:17921000: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:17921000:
+
+
+
+
+
+
+
+
+
+# HTID:17932386: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www.)?(sistemauniversidad.000webhostapp.com)(/)?.*$      [NC]
+RewriteRule .*.(.txt|.html|.htm|.php|.swf)$ https://sistemauniversidad.000webhostapp.com [R,NC]
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:17932386:
